@@ -2,12 +2,13 @@ import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import './SignUp.css'
+import img5 from '../../images/img-5.jpg'
 
 
 export default function SignUp() 
 {
   return (
-    <div className='sign-up'>
+    <div className='sign-up'  style={{backgroundImage:`url(${img5})`}}>
       <div>
        <h6> Sign Up</h6>
        <form>
